@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flink-lessons" />
+        <module name="flink-app" />
+        <module name="fllink-realtime" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flink-app" target="1.5" />
+      <module name="flink-lessons" target="1.5" />
+      <module name="fllink-realtime" target="1.5" />
+      <module name="project-flink" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

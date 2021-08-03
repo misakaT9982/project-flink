@@ -1,0 +1,3 @@
+# Project exclude paths
+/flink-app/target/
+/flink-lessons/target/
